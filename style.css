@@ -1,0 +1,108 @@
+
+
+body{
+    margin: 0;
+    background-color: rgb(160, 180, 223);
+    font: 80% arial, helvetica, sans-serif;
+}
+
+/* container sets the size for middle section/column where all content will be displayed */
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+
+}
+
+/* header includes a diagonal gradient that starts with color to match nav bar background */
+header{
+    text-align: center;
+    background-color: rgb(210, 202, 240);
+    background: linear-gradient(27deg, rgba(204,204,250,1) 0%, rgba(149,113,233,1) 100%);
+    height: auto;
+    color:rgb(243, 241, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1,h2 {
+    margin: 0;
+}
+
+/* name/title was separated to add specific characteristis to each name */
+/* position is relative to parent element (header). if header moves names move as well*/
+#charles{
+    position: relative;
+    top:25px;
+    left:-140px;
+}
+
+#darwin{
+    position: relative;
+    font-size: 50px;
+    top: -15px;
+    left: 50px;
+}
+
+/*  NAVIGATION BAR
+ */
+
+ /* position is absolute and will not move */
+nav{
+   position: absolute; 
+   width: 150px;
+   margin-top: 10px;
+}
+
+li{
+   list-style: none;
+   background-color: lavender;
+   margin-top: 2px;
+   border-left: 2px solid rgb(162, 162, 214);
+   padding-left: 6px;
+}
+
+li:hover{
+background-color: gold;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+}
+
+/* CONTENT AND IMAGE
+ */
+
+ .content{
+    border-left: 160px solid rgb(204, 204, 250);
+    background-color: white;
+    padding: 0 10px;
+ }
+
+ img{
+     float: right;
+     border: 1px solid black;
+     padding: 1px;
+     margin-left: 10px;
+ }
+
+ /* FOOTER
+  */
+
+  .content p:last-of-type{
+      margin-bottom: 0;
+      padding-bottom: 10px;
+     
+  }
+  footer{
+      background-color: rgb(177, 170, 187);
+      padding:0;
+      margin: 0;
+      height: 50px;
+  }
+
+  footer p {
+      margin: 0;
+  }
