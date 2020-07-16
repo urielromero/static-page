@@ -46,9 +46,10 @@ header h1,h2 {
 }
 
 /*  NAVIGATION BAR
- */
+ ***************************************************************/   
 
  /* position is absolute and will not move */
+ /* the content/block below will move up to the same line and will be moved to right*/
 nav{
    position: absolute; 
    width: 150px;
@@ -60,11 +61,13 @@ li{
    background-color: lavender;
    margin-top: 2px;
    border-left: 2px solid rgb(162, 162, 214);
-   padding-left: 6px;
+   /* top right bottom left paddings */
+   padding: 4px 0 4px 6px;
+  
 }
 
 li:hover{
-background-color: gold;
+    background-color: gold;
 }
 
 a{
@@ -81,6 +84,7 @@ a{
     padding: 0 10px;
  }
 
+ /* when floted to the right content below (<p>) moves up in line */
  img{
      float: right;
      border: 1px solid black;
@@ -96,13 +100,37 @@ a{
       padding-bottom: 10px;
      
   }
+
+ /* FOOTER
+  ***************************************************************/
+
+  
   footer{
       background-color: rgb(177, 170, 187);
+      
       padding:0;
       margin: 0;
-      height: 50px;
+      height: auto;
   }
 
   footer p {
       margin: 0;
   }
+
+  footer ul{
+      display: flex;
+      margin-left: 120px;
+      margin-top: 0;
+      padding-top: 20px;
+     
+  }
+
+  footer ul li{
+    background-color: rgb(177, 170, 187);
+    border: 0;
+    padding: 10px;
+  }
+
+  footer li:hover{
+    background-color: white;
+}
