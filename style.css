@@ -76,12 +76,12 @@ a{
 }
 
 /* CONTENT AND IMAGE
- */
+ ****************************************************************/
 
  .content{
     border-left: 160px solid rgb(204, 204, 250);
-    background-color: white;
     padding: 0 10px;
+    background: white url(birds-border2.jpg) repeat-y;
  }
 
  /* when floted to the right content below (<p>) moves up in line */
@@ -90,10 +90,14 @@ a{
      border: 1px solid black;
      padding: 1px;
      margin-left: 10px;
+     width: 100px;
+     height: 150px;
+     /* specify img size to help browser alocate space in case img is not loaded in time*/
  }
 
- /* FOOTER
-  */
+    .content > h2, p {
+        margin-left: 30px;
+    }
 
   .content p:last-of-type{
       margin-bottom: 0;
