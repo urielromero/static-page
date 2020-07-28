@@ -1,0 +1,11 @@
+A static web page is one that displays all the stored information, but does not have a way for the user to interact with it or change the 
+infomration displayed. This is in contrast to a dynamic page where the user typically has an input and page is updated based on each interaction.
+
+In this case I created a page that conveys the idea of an informative page about "Charles Darwin". The user can only read the information displayed and "navigate" 
+through the demo links, but all the information listed is the entire information as it is stored. 
+
+Attributes such as: position, margin, padding, etc. can be of great use to create simple and useful layouts. 
+
+Visit this page at:
+
+https://urielromero.github.io/Typing-Test-Web-App-with-JS/
